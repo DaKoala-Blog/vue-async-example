@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在Vue中使用async函数</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.22/dist/vue.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <button @click="secondPerson">点我!</button>
+        <div v-for="person in people">{{person.name}} - {{person.age}}</div>
+    </div>
+</body>
+</html>
